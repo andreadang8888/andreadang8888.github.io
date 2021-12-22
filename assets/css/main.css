@@ -47,7 +47,7 @@ blockquote, q {
 	}
 
 table {
-	border-collapse: collapse;
+	width: 100%;
 	border-spacing: 0;
 }
 
@@ -3783,3 +3783,41 @@ input, select, textarea {
 			}
 
 		}
+
+/* Andrea's Custom CSS */
+
+.courses-table th {
+	background-color: #d1c8e9;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.courses-table td {
+	background-color: white;
+	font-size: medium; 
+}
+
+.tleftcol, .tmidcol, .trightcol {
+	padding-top: 0px;
+	padding-bottom: 1px;
+}
+
+.tleftcol{
+	border-left: 1px solid black;
+}
+
+.tmidcol {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.trightcol {
+	border-right: 1px solid black;
+}
+
+.tbottom {
+	border-bottom: 1px solid black;
+}
