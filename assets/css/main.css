@@ -3786,6 +3786,11 @@ input, select, textarea {
 
 /* Andrea's Custom CSS */
 
+.courses-table {
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+
 .courses-table th {
 	background-color: #d1c8e9;
 	border: 1px solid black;
